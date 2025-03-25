@@ -5,7 +5,7 @@ preloadImg: "/assets/images/cabinets2.jpg"
 permalink: "reviews/"
 eleventyNavigation:
     key: Reviews
-    order: 400
+    order: 600
 ---
 
 {% extends "layouts/base.html" %}
@@ -15,245 +15,279 @@ eleventyNavigation:
 {% endblock %}
 
 {% block body %}
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
-
-    <section id="int-hero">
-        <h1 id="home-h">Our Reviews</h1>
-        <picture class="cs-picture">
-            <source
-                media="(max-width: 600px)"
-                srcset="/assets/images/landing-m.webp"
-            />
-            <source
-                media="(min-width: 601px)"
-                srcset="/assets/images/landing.jpg"
-            />
-            <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/images/landing.jpg"
-                alt="new home"
-                width="2500"
-                height="1667"
-                loading="eager"
-            />
-        </picture>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                  Reviews                     -->
-    <!-- ============================================ -->
-
-    <section id="reviews">
-        <div class="container">
-            <div class="review">
-                <picture>
-                    <img
-                        class="profile"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/svgs/profile.svg"
-                        alt=""
-                        width="99"
-                        height="99"
-                    />
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Sed recusandae rerum unde similique ratione sapiente
-                    necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name"
-                        >B Miller<span class="desc">Homeowner</span></span
-                    >
-                    <picture>
-                        <img
-                            aria-hidden="true"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/svgs/stars.svg"
-                            alt="stars"
-                            width="91"
-                            height="15"
-                        />
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img
-                        class="profile"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/svgs/profile.svg"
-                        alt=""
-                        width="99"
-                        height="99"
-                    />
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Sed recusandae rerum unde similique ratione sapiente
-                    necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name"
-                        >Vincent M.<span class="desc">Homeowner</span></span
-                    >
-                    <picture>
-                        <img
-                            aria-hidden="true"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/svgs/stars.svg"
-                            alt="stars"
-                            width="91"
-                            height="15"
-                        />
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img
-                        class="profile"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/svgs/profile.svg"
-                        alt=""
-                        width="99"
-                        height="99"
-                    />
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Sed recusandae rerum unde similique ratione sapiente
-                    necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name"
-                        >Alex L.<span class="desc">Homeowner</span></span
-                    >
-                    <picture>
-                        <img
-                            aria-hidden="true"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/svgs/stars.svg"
-                            alt="stars"
-                            width="91"
-                            height="15"
-                        />
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img
-                        class="profile"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/svgs/profile-woman.svg"
-                        alt=""
-                        width="99"
-                        height="99"
-                    />
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Sed recusandae rerum unde similique ratione sapiente
-                    necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name"
-                        >Arrieana M.<span class="desc">Homeowner</span></span
-                    >
-                    <picture>
-                        <img
-                            aria-hidden="true"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/svgs/stars.svg"
-                            alt="stars"
-                            width="91"
-                            height="15"
-                        />
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img
-                        class="profile"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/svgs/profile.svg"
-                        alt=""
-                        width="99"
-                        height="99"
-                    />
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Sed recusandae rerum unde similique ratione sapiente
-                    necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name"
-                        >Leo N.<span class="desc">Homeowner</span></span
-                    >
-                    <picture>
-                        <img
-                            aria-hidden="true"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/svgs/stars.svg"
-                            alt="stars"
-                            width="91"
-                            height="15"
-                        />
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img
-                        class="profile"
-                        loading="lazy"
-                        decoding="async"
-                        src="/assets/svgs/profile.svg"
-                        alt=""
-                        width="99"
-                        height="99"
-                    />
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Sed recusandae rerum unde similique ratione sapiente
-                    necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name"
-                        >Brian A.<span class="desc">Homeowner</span></span
-                    >
-                    <picture>
-                        <img
-                            aria-hidden="true"
-                            loading="lazy"
-                            decoding="async"
-                            src="/assets/svgs/stars.svg"
-                            alt="stars"
-                            width="91"
-                            height="15"
-                        />
-                    </picture>
-                </div>
+    <div id="banner-2285">
+        <div class="cs-container">
+            <span class="cs-int-title">Our Reviews</span>
+            <div class="cs-breadcrumbs">
+                <a class="cs-link" href="../index.html">Home</a>
+                <a class="cs-active cs-link" href="#">Reviews</a>
             </div>
         </div>
+        <picture class="cs-background"
+            ><source
+                media="(max-width: 600px)"
+                srcset="/assets/images/banner-about.webp" />
+            <source
+                media="(min-width: 601px)"
+                srcset="/assets/images/banner-about.webp" />
+            <img
+                alt="About The Southern Landscape Firm"
+                decoding="async"
+                height="568"
+                src="../assets/images/banner-about.webp"
+                width="1280"
+                aria-hidden="true"
+        /></picture>
+    </div>
+    <section id="reviews-1396">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">Testimonials</span>
+                <h2 class="cs-title">
+                    Quality Work. Lasting Impressions. Proven Results.
+                </h2>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img
+                        alt="quote icon"
+                        decoding="async"
+                        height="99"
+                        src="../assets/svgs/quotes.svg"
+                        width="120"
+                        aria-hidden="true"
+                        class="cs-quote"
+                    />
+                    <p class="cs-item-text">
+                        <strong
+                            >Michael and his crew do outstanding work</strong
+                        >
+                        and strive to please. He is super knowledgeable
+                        concerning turf and horticulture - and this is coming
+                        from someone with a horticulture education! Love them!
+                        Give them a chance, and you will be thrilled with their
+                        work!
+                    </p>
+                    <div class="cs-flex-group">
+                        <picture class="cs-picture"
+                            ><img
+                                alt="profile"
+                                decoding="async"
+                                height="50"
+                                src="../assets/images/review-1.webp"
+                                width="50"
+                                aria-hidden="true"
+                                class="cs-profile" /></picture
+                        ><span class="cs-name"
+                            >Debbi Clarke
+                            <span class="cs-job">Real Estate Agent</span></span
+                        >
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <img
+                        alt="quote icon"
+                        decoding="async"
+                        height="99"
+                        src="../assets/svgs/quotes.svg"
+                        width="120"
+                        aria-hidden="true"
+                        class="cs-quote"
+                    />
+                    <p class="cs-item-text">
+                        I couldn't be happier with all Southern Landscape Firm
+                        has done for our home.
+                        <strong
+                            >Their lawn maintenance program is
+                            second-to-none</strong
+                        >. Always on time, at the same time, without me having
+                        to look for them. They have lived up to and in many ways
+                        exceeded my high expectations for what I wanted.
+                    </p>
+                    <div class="cs-flex-group">
+                        <picture class="cs-picture"
+                            ><img
+                                alt="profile"
+                                decoding="async"
+                                height="50"
+                                src="../assets/images/review-2.webp"
+                                width="50"
+                                aria-hidden="true"
+                                class="cs-profile" /></picture
+                        ><span class="cs-name"
+                            >Jessie Odell
+                            <span class="cs-job">Lawncare Customer</span></span
+                        >
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <img
+                        alt="quote icon"
+                        decoding="async"
+                        height="99"
+                        src="../assets/svgs/quotes.svg"
+                        width="120"
+                        aria-hidden="true"
+                        class="cs-quote"
+                    />
+                    <p class="cs-item-text">
+                        We have enjoyed working with the Southern Landscape
+                        Firm. They did a fabulous job redesigning our shrubs and
+                        flower beds. Michael Ray’s team was extremely
+                        professional and worked hard to make sure we were
+                        pleased with the outcome.
+                        <strong>Our yard has never looked better</strong>.
+                        Thanks for all you do!!
+                    </p>
+                    <div class="cs-flex-group">
+                        <picture class="cs-picture"
+                            ><img
+                                alt="profile"
+                                decoding="async"
+                                height="50"
+                                src="../assets/images/review-3.webp"
+                                width="50"
+                                aria-hidden="true"
+                                class="cs-profile" /></picture
+                        ><span class="cs-name"
+                            >Teri Scroggins
+                            <span class="cs-job">Installation</span></span
+                        >
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <img
+                        alt="quote icon"
+                        decoding="async"
+                        height="99"
+                        src="../assets/svgs/quotes.svg"
+                        width="120"
+                        aria-hidden="true"
+                        class="cs-quote"
+                    />
+                    <p class="cs-item-text">
+                        The Southern Landscape Firm has done an amazing job at
+                        cleaning up the landscape for my cottage in the woods.
+                        The crew was friendly and very pleasant to work with.
+                        <strong>I highly recommend this group</strong>, as they
+                        show extreme care to their work and to their customers.
+                    </p>
+                    <div class="cs-flex-group">
+                        <picture class="cs-picture"
+                            ><img
+                                alt="profile"
+                                decoding="async"
+                                height="50"
+                                src="../assets/images/review-4.webp"
+                                width="50"
+                                aria-hidden="true"
+                                class="cs-profile" /></picture
+                        ><span class="cs-name"
+                            >Rhonda Keller
+                            <span class="cs-job">Landscape Customer</span></span
+                        >
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <img
+                        alt="quote icon"
+                        decoding="async"
+                        height="99"
+                        src="../assets/svgs/quotes.svg"
+                        width="120"
+                        aria-hidden="true"
+                        class="cs-quote"
+                    />
+                    <p class="cs-item-text">
+                        Michael and his team are
+                        <strong>the best of the best</strong>!! They are great
+                        people, and they take so much pride in all of their
+                        work. I HIGHLY recommend them to anyone looking for lawn
+                        care!
+                    </p>
+                    <div class="cs-flex-group">
+                        <picture class="cs-picture"
+                            ><img
+                                alt="profile"
+                                decoding="async"
+                                height="50"
+                                src="../assets/images/review-5.webp"
+                                width="50"
+                                aria-hidden="true"
+                                class="cs-profile" /></picture
+                        ><span class="cs-name"
+                            >Natalie LoPresti
+                            <span class="cs-job">The Cleaning Co</span></span
+                        >
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <img
+                        alt="quote icon"
+                        decoding="async"
+                        height="99"
+                        src="../assets/svgs/quotes.svg"
+                        width="120"
+                        aria-hidden="true"
+                        class="cs-quote"
+                    />
+                    <p class="cs-item-text">
+                        I highly recommend The Southern Landscape Firm. They do
+                        the job very well with experience and are very
+                        professional.
+                        <strong>Overall just a great company to use</strong>
+                        for all your landscaping needs!
+                    </p>
+                    <div class="cs-flex-group">
+                        <picture class="cs-picture"
+                            ><img
+                                alt="profile"
+                                decoding="async"
+                                height="50"
+                                src="../assets/images/review-6.webp"
+                                width="50"
+                                aria-hidden="true"
+                                class="cs-profile" /></picture
+                        ><span class="cs-name"
+                            >Amber Rich
+                            <span class="cs-job">Installation</span></span
+                        >
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
-
-    {% include 'components/cta.html' %}
+    <section id="cta-51">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">The Southern Landscape Firm</span>
+                <h2 class="cs-title">Let’s Bring Your Landscape to Life!</h2>
+                <p class="cs-text">
+                    Whether you need ongoing maintenance or custom
+                    installations, The Southern Landscape Firm is here to
+                    deliver. Contact us today and let’s create an outdoor space
+                    you’ll love!
+                </p>
+                <a class="cs-button-solid" href="../contact/index.html"
+                    >Get A Free Quote</a
+                >
+            </div>
+        </div>
+        <picture class="cs-picture"
+            ><source
+                media="(max-width: 600px)"
+                srcset="/assets/images/cta-m.webp" />
+            <source
+                media="(min-width: 601px)"
+                srcset="/assets/images/cta.webp" />
+            <img
+                alt="Flower Arrangement"
+                decoding="async"
+                height="1280"
+                src="../assets/images/cta.webp"
+                width="1920"
+                aria-hidden="true"
+                loading="lazy"
+        /></picture>
+    </section>
 {% endblock %}

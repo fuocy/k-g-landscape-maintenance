@@ -1,16 +1,8 @@
-/* DARK MODE AND TOGGLE STYLES */
-
-/*-- -------------------------- -->
-<---      Core Dark Styles      -->
-<--- -------------------------- -*/
-
-/* Mobile */
 @media only screen and (min-width: 0rem) {
-    // Dark Mode Color Scheme
     :root {
-        --dark: #082032;
-        --medium: #2c394b;
-        --accent: #334756;
+        --dark: #372922;
+        --medium: #4e3b31;
+        --accent: #d9b68c;
     }
 
     body.dark-mode {
@@ -27,12 +19,10 @@
             color: #fff;
         }
 
-        // hide all light classes
         .light {
             display: none;
         }
 
-        // show all dark classes
         .dark {
             display: block !important;
         }

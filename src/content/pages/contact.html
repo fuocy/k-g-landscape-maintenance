@@ -16,143 +16,252 @@ eleventyNavigation:
 {% endblock %}
 
 {% block body %}
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
-
-    <section id="int-hero">
-        <h1 id="home-h">Contact Us</h1>
-        <picture>
-            <source
+    <div id="banner-2285">
+        <div class="cs-container">
+            <span class="cs-int-title">Contact Us</span>
+            <div class="cs-breadcrumbs">
+                <a class="cs-link" href="../index.html">Home</a>
+                <a class="cs-link cs-active" href="#">Contact</a>
+            </div>
+        </div>
+        <picture class="cs-background"
+            ><source
                 media="(max-width: 600px)"
-                srcset="/assets/images/cabinets2-m.jpg"
-            />
+                srcset="/assets/images/banner-about.webp" />
             <source
                 media="(min-width: 601px)"
-                srcset="/assets/images/cabinets2.jpg"
-            />
+                srcset="/assets/images/banner-about.webp" />
             <img
-                aria-hidden="true"
+                alt="About The Southern Landscape Firm"
                 decoding="async"
-                src="/assets/images/cabinets2.jpg"
-                alt="kitchen cabinets"
-                loading="eager"
-                width="2500"
-                height="1667"
-            />
-        </picture>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                Contact Form                  -->
-    <!-- ============================================ -->
-
-    <section id="cs-contact">
+                height="568"
+                src="../assets/images/banner-about.webp"
+                width="1280"
+                aria-hidden="true"
+        /></picture>
+    </div>
+    <section id="contact-1150">
         <div class="cs-container">
-            <form id="cs-form" name="Contact Form" method="post">
-                <div class="cs-content">
-                    <span class="cs-topper">Contact</span>
-                    <h2 class="cs-title">Get in Touch</h2>
-                    <p class="cs-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Ridiculus elementum ullamcorper ipsum porttitor aliquam.
-                        Id magna urna ultrices odio pulvinar. Sed ut.
-                    </p>
-                </div>
-                <label>
-                    Name
+            <div class="cs-content">
+                <span class="cs-topper"
+                    >Contact The Southern Landscape Firm</span
+                >
+                <h2 class="cs-title">
+                    Expert Landscaping, Exceptional Service—Let’s Talk!
+                </h2>
+            </div>
+            <div class="cs-contact-group">
+                <picture class="cs-picture"
+                    ><source
+                        media="(max-width: 600px)"
+                        srcset="/assets/images/contact.webp" />
+                    <source
+                        media="(min-width: 601px)"
+                        srcset="/assets/images/contact.webp" />
+                    <img
+                        alt="Michael Ray, Co-Owner"
+                        decoding="async"
+                        height="300"
+                        src="../assets/images/contact.webp"
+                        width="630"
+                        loading="lazy"
+                /></picture>
+                <p class="cs-contact-text">
+                    Have questions or ready to start your next landscaping
+                    project? Whether you need maintenance, installations,
+                    irrigation, or seasonal color, our team is here to help.
+                    Fill out our Contact Form, or reach out directly—we look
+                    forward to serving you!
+                </p>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper"
+                            ><img
+                                alt="phone icon"
+                                decoding="async"
+                                height="40"
+                                src="../assets/svgs/contact-phone.svg"
+                                width="40"
+                                aria-hidden="true"
+                                class="cs-icon"
+                        /></picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Phone</span>
+                            <a class="cs-link" href="tel:+12056356986"
+                                >(205) 635-6986</a
+                            >
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper"
+                            ><img
+                                alt="phone icon"
+                                decoding="async"
+                                height="40"
+                                src="../assets/svgs/contact-email.svg"
+                                width="40"
+                                aria-hidden="true"
+                                class="cs-icon"
+                        /></picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Email</span>
+                            <a
+                                class="cs-link"
+                                href="mailto:michael@thesouthernlandscapefirm.com"
+                                >michael@thesouthernlandscapefirm.com</a
+                            >
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <picture class="cs-icon-wrapper"
+                            ><img
+                                alt="address icon"
+                                decoding="async"
+                                height="40"
+                                src="../assets/svgs/contact-pin.svg"
+                                width="40"
+                                aria-hidden="true"
+                                class="cs-icon"
+                        /></picture>
+                        <div class="cs-flex-group">
+                            <span class="cs-header">Address</span>
+                            <a
+                                class="cs-link"
+                                href="https://maps.app.goo.gl/smoM5E7XCcqvUpMUA"
+                                >2805 Queenstown Road<br />Trussville, AL
+                                35173</a
+                            >
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <form
+                class="cs-form"
+                id="cs-form-1150"
+                method="post"
+                name="Contact Form"
+            >
+                <input
+                    type="hidden"
+                    name="form-name"
+                    value="Contact Form"
+                /><label class="cs-label"
+                    >Name
                     <input
-                        required
-                        type="text"
-                        id="name"
+                        class="cs-input"
+                        id="name-1150"
                         name="name"
                         placeholder="Name"
-                    />
-                </label>
-                <label>
-                    Email
-                    <input
                         required
                         type="text"
-                        id="email"
+                /></label>
+                <label class="cs-label cs-email"
+                    >Email
+                    <input
+                        class="cs-input"
+                        id="email-1150"
                         name="email"
                         placeholder="Email"
-                    />
-                </label>
-                <label>
-                    Phone
-                    <input
                         required
-                        type="text"
-                        id="phone"
+                        type="email"
+                /></label>
+                <label class="cs-label cs-phone"
+                    >Phone
+                    <input
+                        class="cs-input"
+                        id="phone-1150"
                         name="phone"
                         placeholder="Phone"
-                    />
-                </label>
-                <label>
-                    How Did You Find Us
-                    <input
-                        type="text"
-                        id="find"
-                        name="find-us"
-                        placeholder="How did you find us?"
-                    />
-                </label>
-                <label class="cs-label-message">
-                    Message
-                    <textarea
                         required
+                        type="number"
+                /></label>
+                <label class="cs-label"
+                    >Service(s)
+                    <select
+                        class="cs-input"
+                        id="service-1150"
+                        name="service"
+                        required
+                    >
+                        <option value="" disabled selected>
+                            Select a Service
+                        </option>
+                        <option value="Landscape Maintenance">
+                            Landscape Maintenance
+                        </option>
+                        <option value="Landscape Installation">
+                            Landscape Installation
+                        </option>
+                        <option value="Irrigation & Sprinkler Systems">
+                            Irrigation & Sprinkler Systems
+                        </option>
+                        <option value="Outdoor Lighting">
+                            Outdoor Lighting
+                        </option>
+                        <option value="Seasonal Color Enhancements">
+                            Seasonal Color Enhancements
+                        </option>
+                        <option value="Hardscaping">Hardscaping</option>
+                        <option value="Drainage Solutions">
+                            Drainage Solutions
+                        </option>
+                        <option value="Turf & Lawn Renovation">
+                            Turf & Lawn Renovation
+                        </option>
+                        <option value="Commercial Landscaping">
+                            Commercial Landscaping
+                        </option>
+                        <option value="Commercial Landscaping">
+                            HOA Landscaping
+                        </option>
+                        <option value="Tree & Shrub Care">
+                            Tree & Shrub Care
+                        </option>
+                        <option value="Other">Other</option>
+                    </select></label
+                >
+                <label class="cs-label"
+                    >Location
+                    <select
+                        class="cs-input"
+                        id="location-1150"
+                        name="location"
+                        required
+                    >
+                        <option value="" disabled selected>
+                            Select a Location
+                        </option>
+                        <option value="Trussville, AL">Trussville, AL</option>
+                        <option value="Vestavia Hills, AL">
+                            Vestavia Hills, AL
+                        </option>
+                        <option value="Mountain Brook, AL">
+                            Mountain Brook, AL
+                        </option>
+                        <option value="Homewood, AL">Homewood, AL</option>
+                        <option value="Hoover, AL">Hoover, AL</option>
+                        <option value="Bessemer, AL">Bessemer, AL</option>
+                        <option value="Springville, AL">Springville, AL</option>
+                        <option value="Moody, AL">Moody, AL</option>
+                        <option value="Clay, AL">Clay, AL</option>
+                        <option value="Leeds, AL">Leeds, AL</option>
+                        <option value="Other">Other</option>
+                    </select></label
+                >
+                <label class="cs-label"
+                    >Message
+                    <textarea
+                        class="cs-input cs-textarea"
+                        id="message-1150"
                         name="Message"
-                        id="message"
-                        placeholder="Write message..."
+                        placeholder="Your message..."
+                        required
                     ></textarea>
                 </label>
                 <button class="cs-button-solid" type="submit">
-                    Submit Message
+                    Send Message
                 </button>
             </form>
-            <div class="cs-right-section">
-                <!--Email-->
-                <span class="cs-header">Email</span>
-                <a class="cs-link" href="mailto:{{ client.email }}"
-                    >{{ client.email }}</a
-                >
-                <!--Phone-->
-                <span class="cs-header">Phone</span>
-                <a class="cs-link" href="tel:{{ client.phoneForTel }}"
-                    >{{ client.phoneFormatted }}</a
-                >
-                <!--Address-->
-                <span class="cs-header">Address</span>
-                <a class="cs-link" href="{{ client.address.mapLink }}">
-                    {{ client.address.lineOne }},
-                    <br />
-                    {{ client.address.lineTwo }},
-                    <br />
-                    <span class="cs-block">
-                        {{ client.address.city }}
-                        {{ client.address.state }}
-                        {{ client.address.zip }}
-                    </span>
-                </a>
-
-                <!-- Background Image-->
-                <picture class="cs-bg-picture">
-                    <source
-                        media="(min-width: 601px)"
-                        srcset="/assets/images/skyscraper.jpg"
-                    />
-                    <img
-                        aria-hidden="true"
-                        decoding="async"
-                        src="/assets/images/skyscraper.jpg"
-                        alt="building"
-                        loading="lazy"
-                        width="2500"
-                        height="1667"
-                    />
-                </picture>
-            </div>
         </div>
     </section>
 {% endblock %}
