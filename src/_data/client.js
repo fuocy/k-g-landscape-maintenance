@@ -1,21 +1,21 @@
 module.exports = {
-    name: "K&G ",
-    email: "help@codestitch.app",
-    phoneForTel: "555-779-4407",
-    phoneFormatted: "(555) 779-4407",
+    name: "K&G Landscape Maintenance",
+    email: "kglandscapemaintenancellc@gmail.com",
+    phoneForTel: "971-235-0854",
+    phoneFormatted: "(971) 235-0854",
     address: {
         lineOne: "First Address Line",
         lineTwo: "Second Address Line",
-        city: "Denver",
-        state: "CO",
+        city: "Milwaukie",
+        state: "Oregon",
         zip: "80206",
         country: "US",
-        mapLink: "https://goo.gl/maps/UAQn4vuGDiwv7DV39",
+        mapLink: "https://maps.app.goo.gl/KUX9e7nqUq4BmmtN6",
     },
     socials: {
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
+        facebook: "https://www.facebook.com/kglandscapemaintenance",
+        instagram: "https://www.instagram.com/kglandscapemaintenancellc",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    domain: "https://www.example.com",
+    domain: "https://kglandscapemaintenance.netlify.app",
 };
