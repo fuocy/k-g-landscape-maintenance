@@ -96,6 +96,17 @@
         {% block head %}{% endblock %}
 
         <title>{{ title }}</title>
+        <script>
+            window.addEventListener("load", () => {
+                const grid = document.querySelector(".cs-grid");
+                if (grid) {
+                    // Trigger reflow
+                    grid.style.display = "none";
+                    grid.offsetHeight; // force reflow
+                    grid.style.display = "grid";
+                }
+            });
+        </script>
     </head>
     <body>
         <!--Screen reader skip main nav-->

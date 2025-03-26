@@ -492,6 +492,7 @@
   }
   #gallery-434 .cs-grid {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: clamp(0.75rem, 1.5vw, 1.875rem);
     grid-template-rows: repeat(6, 0.34fr);
