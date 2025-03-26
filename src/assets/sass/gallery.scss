@@ -237,6 +237,7 @@
         }
 
         .cs-grid {
+            width: 100%;
             display: grid;
             grid-template-columns: repeat(12, 1fr);
             grid-gap: clamp(0.75rem, 1.5vw, 1.875rem);
