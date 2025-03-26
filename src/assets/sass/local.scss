@@ -1332,7 +1332,8 @@
 // sbs added
 @media only screen and (min-width: 0rem) {
     #sbs-83 {
-        // padding: var(--sectionPadding);
+        padding: var(--sectionPadding);
+        padding-top: 0;
 
         .cs-container {
             width: 100%;
@@ -1350,7 +1351,7 @@
             max-width: 32.625rem;
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            align-items: center;
         }
 
         .cs-title {

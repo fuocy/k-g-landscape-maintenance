@@ -1461,6 +1461,9 @@
 
         .cs-logo-group {
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .cs-logo {
@@ -1624,6 +1627,7 @@
         .cs-logo-group {
             width: auto;
             width: clamp(14rem, 23vw, 19.0625rem);
+            display: block;
         }
 
         .cs-nav {
