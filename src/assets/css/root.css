@@ -1189,13 +1189,13 @@
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
-    margin-top: 10px;
   }
   #cs-footer-145 .cs-logo-group {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
   }
   #cs-footer-145 .cs-logo {
     width: clamp(13.125rem, 8vw, 15rem);
