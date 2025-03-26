@@ -1455,8 +1455,9 @@
             margin: auto;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: start;
             flex-wrap: wrap;
+            margin-top: 10px;
         }
 
         .cs-logo-group {
@@ -1622,6 +1623,7 @@
     #cs-footer-145 {
         .cs-container {
             max-width: 80rem;
+            margin-top: 0;
         }
 
         .cs-logo-group {
