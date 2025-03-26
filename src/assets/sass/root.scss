@@ -2,7 +2,7 @@
     :root {
         --primary: #77b254;
         --primaryLight: #f2e1d4;
-        --primaryDark: #476b32;
+        --primaryDark: #92c176;
         --secondary: #92c176;
         --secondaryLight: #92c176;
         --headerColor: #1a1a1a;
@@ -332,8 +332,8 @@
         }
     }
 }
-
-@media only screen and (max-width: 1023px) {
+// navigation
+@media only screen and (max-width: 1230px) {
     body {
         &.cs-open {
             overflow: hidden;
@@ -718,7 +718,7 @@
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1230px) {
     body.dark-mode #cs-navigation {
         background-color: var(--dark);
 
@@ -752,7 +752,7 @@
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1230px) {
     #cs-navigation {
         .cs-li {
             text-align: center;
@@ -826,7 +826,7 @@
     }
 }
 
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 77rem) {
     #cs-navigation {
         .cs-dropdown {
             position: relative;
@@ -1002,7 +1002,7 @@
     }
 }
 
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 77rem) {
     body.scroll #cs-navigation {
         transform: translateY(-3.3125rem);
     }
@@ -1195,7 +1195,7 @@
     }
 }
 
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 77rem) {
     body.dark-mode #cs-navigation {
         background-color: var(--dark);
 
@@ -1473,6 +1473,10 @@
         .cs-logo-img {
             width: 100%;
             height: auto;
+        }
+
+        .cs-logo-text {
+            margin-top: -10px;
         }
 
         .cs-nav {

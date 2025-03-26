@@ -1,6 +1,6 @@
 ---
-title: "About | Code Stitch Web Designs"
-description: "Meta description for the page"
+title: "Gallery | K&G Landscape Maintenance in Milwaukie"
+description: "Browse our gallery to see K&G Landscape Maintenance's lawn care, clean-up projects, and professional holiday lighting work throughout Milwaukie and nearby areas"
 preloadImg: "/assets/images/cabinets2.jpg"
 permalink: "gallery/"
 eleventyNavigation:
@@ -11,6 +11,11 @@ eleventyNavigation:
 {% extends "layouts/base.html" %}
 
 {% block head %}
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <link rel="stylesheet" href="/assets/css/gallery.css" />
 {% endblock %}
 
@@ -31,7 +36,7 @@ eleventyNavigation:
                 media="(min-width: 601px)"
                 srcset="/assets/images/banner-about.webp" />
             <img
-                alt="About The Southern Landscape Firm"
+                alt="About K&G Landscape Maintenance"
                 decoding="async"
                 height="568"
                 src="../assets/images/banner-about.webp"
@@ -41,35 +46,50 @@ eleventyNavigation:
     </div>
     <section id="gallery-434">
         <div class="cs-container">
-            <div class="cs-grid">
-                <picture class="cs-picture cs-picture1"
-                    ><source
+            <!-- <div class="cs-grid">
+                <picture class="cs-picture cs-picture1">
+                    <source
                         media="(max-width: 600px)"
-                        srcset="/assets/images/gallery-1-m.webp" />
+                        srcset="/assets/images/gallery-1-m.webp"
+                    />
                     <source
                         media="(min-width: 601px)"
-                        srcset="/assets/images/gallery-1.webp" />
-                    <img
-                        alt="gallery image"
-                        decoding="async"
-                        height="190"
-                        src="../assets/images/gallery-1.webp"
-                        width="424"
-                        loading="lazy" /></picture
-                ><picture class="cs-picture cs-picture2"
-                    ><source
+                        srcset="/assets/images/gallery-1.webp"
+                    />
+                    <a
+                        href="/assets/images/kg/gallery/1.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/1.jpg"
+                            width="424"
+                            loading="lazy"
+                        />
+                    </a> </picture
+                ><picture class="cs-picture cs-picture2">
+                    <source
                         media="(max-width: 600px)"
                         srcset="/assets/images/gallery-2-m.webp" />
                     <source
                         media="(min-width: 601px)"
                         srcset="/assets/images/gallery-2.webp" />
-                    <img
-                        alt="gallery image"
-                        decoding="async"
-                        height="390"
-                        src="../assets/images/gallery-2.webp"
-                        width="571"
-                        loading="lazy" /></picture
+                    <a
+                        href="/assets/images/kg/gallery/2.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/2.jpg"
+                            width="571"
+                            loading="lazy"
+                    /></a> </picture
                 ><picture class="cs-picture cs-picture3"
                     ><source
                         media="(max-width: 600px)"
@@ -197,12 +217,190 @@ eleventyNavigation:
                         width="268"
                         loading="lazy"
                 /></picture>
+            </div> -->
+            <div class="cs-grid">
+                <picture class="cs-picture cs-picture1">
+                    <a
+                        href="/assets/images/kg/gallery/1.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/1.jpg"
+                            width="424"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <a
+                        href="/assets/images/kg/gallery/13.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/13.jpg"
+                            width="571"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture3">
+                    <a
+                        href="/assets/images/kg/gallery/12.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/12.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture4">
+                    <a
+                        href="/assets/images/kg/gallery/4.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/4.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture5">
+                    <a
+                        href="/assets/images/kg/gallery/5.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/5.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture6">
+                    <a
+                        href="/assets/images/kg/gallery/19.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/19.jpg"
+                            width="425"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture7">
+                    <a
+                        href="/assets/images/kg/gallery/7.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/7.jpg"
+                            width="273"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture8">
+                    <a
+                        href="/assets/images/kg/gallery/8.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/8.jpg"
+                            width="273"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture9">
+                    <a
+                        href="/assets/images/kg/gallery/26.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/26.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture10">
+                    <a
+                        href="/assets/images/kg/gallery/10.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/10.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture11">
+                    <a
+                        href="/assets/images/kg/gallery/11.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/11.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
             </div>
         </div>
     </section>
     <section id="gallery-435">
         <div class="cs-container">
-            <div class="cs-grid">
+            <!-- <div class="cs-grid">
                 <picture class="cs-picture cs-picture1"
                     ><source
                         media="(max-width: 600px)"
@@ -358,9 +556,196 @@ eleventyNavigation:
                         width="268"
                         loading="lazy"
                 /></picture>
+            </div> -->
+            <div class="cs-grid">
+                <picture class="cs-picture cs-picture1">
+                    <a
+                        href="/assets/images/kg/gallery/15.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/15.jpg"
+                            width="424"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <a
+                        href="/assets/images/kg/gallery/16.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/16.jpg"
+                            width="571"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture3">
+                    <a
+                        href="/assets/images/kg/gallery/17.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/17.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture4">
+                    <a
+                        href="/assets/images/kg/gallery/18.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/18.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture5">
+                    <a
+                        href="/assets/images/kg/gallery/32.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/32.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture6">
+                    <a
+                        href="/assets/images/kg/gallery/20.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/20.jpg"
+                            width="425"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture7">
+                    <a
+                        href="/assets/images/kg/gallery/21.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/21.jpg"
+                            width="273"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture8">
+                    <a
+                        href="/assets/images/kg/gallery/22.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/22.jpg"
+                            width="273"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture9">
+                    <a
+                        href="/assets/images/kg/gallery/32.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/32.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture10">
+                    <a
+                        href="/assets/images/kg/gallery/24.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="390"
+                            src="/assets/images/kg/gallery/24.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
+                <picture class="cs-picture cs-picture11">
+                    <a
+                        href="/assets/images/kg/gallery/25.jpg"
+                        class="glightbox"
+                        data-gallery="gallery1"
+                    >
+                        <img
+                            alt="gallery image"
+                            decoding="async"
+                            height="190"
+                            src="/assets/images/kg/gallery/25.jpg"
+                            width="268"
+                            loading="lazy"
+                        />
+                    </a>
+                </picture>
             </div>
         </div>
     </section>
 
     {% include 'components/cta.html' %}
+
+    <script>
+        const lightbox = GLightbox({
+            selector: ".glightbox", // Chọn các phần tử có class "glightbox"
+            touchNavigation: true, // Bật điều hướng bằng cảm ứng
+            loop: true, // Lặp lại danh sách ảnh
+            autoplayVideos: true, // Tự động phát video
+        });
+    </script>
 {% endblock %}
